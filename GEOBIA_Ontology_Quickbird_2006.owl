@@ -1,0 +1,2790 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY GEOBIA_Quickbird_2006 "http://www.semanticweb.org/ontologies/GEOBIA_Quickbird_2006#" >
+    <!ENTITY GEOBIA_Ontology_QuickBird_2006 "http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#"
+     xml:base="http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:GEOBIA_Ontology_QuickBird_2006="http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#"
+     xmlns:GEOBIA_Quickbird_2006="http://www.semanticweb.org/ontologies/GEOBIA_Quickbird_2006#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/GEOBIA_Quickbird_2006"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzyLabel -->
+
+    <owl:AnnotationProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzyLabel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Quickbird_2006#propertyDefinition -->
+
+    <owl:AnnotationProperty rdf:about="&GEOBIA_Quickbird_2006;propertyDefinition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_LS_0.005_0.009 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_0.005_0.009">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.005</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">0.009</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;0.005&quot; b=&quot;0.009&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_LS_0.16_0.18 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_0.16_0.18">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.16</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">0.18</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;0.16&quot; b=&quot;0.18&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_LS_0.24_0.26 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_0.24_0.26">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.24</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">0.26</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;0.24&quot; b=&quot;0.26&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_LS_0.24_0.28 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_0.24_0.28">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.24</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">0.28</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;0.24&quot; b=&quot;0.28&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_LS_0.26_0.28 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_0.26_0.28">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.26</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">0.28</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;0.26&quot; b=&quot;0.28&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_LS_0.27_0.32 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_0.27_0.32">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.27</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">0.32</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;0.27&quot; b=&quot;0.32&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_LS_1.3_1.4 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_1.3_1.4">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">1.3</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">1.4</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;1.3&quot; b=&quot;1.4&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_LS_2.0_2.2 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_2.0_2.2">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">2.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">2.2</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;2.0&quot; b=&quot;2.2&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_LS_340_380 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_340_380">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">340.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">380.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;340&quot; b=&quot;380&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_LS_400_430 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_400_430">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">400.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">430.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;400&quot; b=&quot;430&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_LS_6.4999_6.5 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_6.4999_6.5">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">6.4999</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">6.5</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;6.4999&quot; b=&quot;6.5&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_LS_650_670 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_650_670">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;integer">650</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">670.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;650&quot; b=&quot;670&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_LS_680_710 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_680_710">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">680.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">710.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;680&quot; b=&quot;710&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_LS_7.999_8 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_7.999_8">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">7.999</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">8.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;7.999&quot; b=&quot;8&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_LS_840_860 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_840_860">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">840.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">860.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;840&quot; b=&quot;860&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_LS_9.9999_10.0 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_9.9999_10.0">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">9.9999</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">10.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;9.9999&quot; b=&quot;10.0&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_0.13_0.15 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.13_0.15">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.13</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">0.15</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.13&quot; b=&quot;0.15&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_0.14_0.22 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.14_0.22">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.14</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">0.22</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.14&quot; b=&quot;0.22&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_0.16_0.17 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.16_0.17">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.16</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">0.17</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.16&quot; b=&quot;0.17&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_0.19_0.21 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.19_0.21">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.19</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">0.21</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.19&quot; b=&quot;0.21&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_0.24_0.30 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.24_0.30">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.27</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">0.3</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.24&quot; b=&quot;0.30&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_0.27_0.28 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.27_0.28">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.27</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">0.28</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.27&quot; b=&quot;0.28&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_0.29_0.31 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.29_0.31">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.29</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">0.31</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.29&quot; b=&quot;0.31&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_0.53_0.55 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.53_0.55">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.53</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">0.55</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.53&quot; b=&quot;0.55&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_0.5_0.6 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.5_0.6">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.5</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">0.6</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.5&quot; b=&quot;0.6&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_0.6_0.7 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.6_0.7">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.7</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">0.7</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.6&quot; b=&quot;0.7&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_0_1 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0_1">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">1.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0&quot; b=&quot;1&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_1.05_1.15 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_1.05_1.15">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">1.05</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">1.15</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;1.05&quot; b=&quot;1.15&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_10_11 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_10_11">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">10.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">11.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;10&quot; b=&quot;11&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_11.5_13.5 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_11.5_13.5">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">11.5</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">13.5</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;11.5&quot; b=&quot;13.5&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_14_18 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_14_18">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">14.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">18.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;14&quot; b=&quot;18&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_17_18 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_17_18">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">17.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">18.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;17&quot; b=&quot;18&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_20_40 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_20_40">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">20.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">40.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;20&quot; b=&quot;40&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_3.5_3.50001 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_3.5_3.50001">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">3.5</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">3.50001</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;3.5&quot; b=&quot;3.50001&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_3.6_3.6001 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_3.6_3.6001">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">3.6</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">3.6001</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;3.6&quot; b=&quot;3.6001&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_30_50 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_30_50">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">30.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">50.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;30&quot; b=&quot;50&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_310_310.01 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_310_310.01">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">310.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">310.01</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;310&quot; b=&quot;310.01&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_410_430 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_410_430">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">410.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">430.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;410&quot; b=&quot;430&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_420_440 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_420_440">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">420.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">440.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;420&quot; b=&quot;440&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_430_440 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_430_440">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">430.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">440.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;430&quot; b=&quot;440&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_4_4.001 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_4_4.001">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">4.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">4.001</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;4&quot; b=&quot;4.001&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_530_560 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_530_560">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">530.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">560.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;530&quot; b=&quot;560&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_6.5999_6.6 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_6.5999_6.6">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">6.5999</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">6.6</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;6.5999&quot; b=&quot;6.6&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_640_650 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_640_650">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">640.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">650.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;640&quot; b=&quot;650&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_7.0_7.0001 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_7.0_7.0001">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">7.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">7.0001</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;7.0&quot; b=&quot;7.0001&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_RS_870_890 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_870_890">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">870.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">890.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;870&quot; b=&quot;890&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_TRP_20_40_360_380 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_TRP_20_40_360_380">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">20.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">380.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;trapezoidal&quot; a=&quot;20&quot; b=&quot;40&quot; c=&quot;360&quot; d=&quot;380&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_TRP_3.5_3.50001_6.4999_6.5 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_TRP_3.5_3.50001_6.4999_6.5">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">3.5</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">6.5</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;trapezoidal&quot; a=&quot;3.5&quot; b=&quot;3.50001&quot; c=&quot;6.49999&quot; d=&quot;6.5&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_TRP_7.0_7.0001_9.9999_10.0 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_TRP_7.0_7.0001_9.9999_10.0">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">7.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">10.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;trapezoidal&quot; a=&quot;7.0&quot; b=&quot;7.0001&quot; c=&quot;9.9999&quot; d=&quot;10.0&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_TR_0_2 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_TR_0_2">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">2.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;triangular&quot; a=&quot;0&quot; b=&quot;1&quot; c=&quot;2&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_TR_1_3 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_TR_1_3">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">1.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">3.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;triangular&quot; a=&quot;1&quot; b=&quot;2&quot; c=&quot;3&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#fuzzy_TR_2_4 -->
+
+    <rdfs:Datatype rdf:about="&GEOBIA_Ontology_QuickBird_2006;fuzzy_TR_2_4">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="&xsd;double">2.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="&xsd;double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="&xsd;double">4.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;triangular&quot; a=&quot;2&quot; b=&quot;3&quot; c=&quot;4&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+    </rdfs:Datatype>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#has_RS_0_1_RelativeAreaToSubObjects -->
+
+    <owl:ObjectProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;has_RS_0_1_RelativeAreaToSubObjects">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
+&lt;Role modifier=&quot;fuzzy_RS_0_1&quot; feature_type=&quot;relative_area&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <GEOBIA_Quickbird_2006:propertyDefinition>Computes the relative area of the sub objects classified in a certain class, for a certain object</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#is_RS_0_1_OverlappedBy -->
+
+    <owl:ObjectProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;is_RS_0_1_OverlappedBy">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
+&lt;Role modifier=&quot;fuzzy_RS_0_1&quot; feature_type=&quot;is_covered&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <GEOBIA_Quickbird_2006:propertyDefinition>Examines if the object of an upper level, overlaps an object of  lower level</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#areaM2 -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;areaM2">
+        <GEOBIA_Quickbird_2006:propertyDefinition>The area of the segment in square meters</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#asymmetry -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;asymmetry">
+        <GEOBIA_Quickbird_2006:propertyDefinition>The Asymmetry feature describes the relative length of an image object, compared to a
+regular polygon. An ellipse is approximated around a given image object, which can be
+expressed by the ratio of the lengths of its minor and the major axes. The feature value
+increases with this asymmetry (eCognition 8.64 manual)</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#density -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;density">
+        <GEOBIA_Quickbird_2006:propertyDefinition>The Density feature describes the distribution in space of the pixels of an image object.
+In eCognition Developer 8.64.1 the most “dense” shape is a square; the more an object
+is shaped like a filament, the lower its density. The density is calculated by the num-
+ber of pixels forming the image object divided by its approximated radius, based on the
+covariance matrix (eCognition 8.64 manual)</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#hsiTransformation432Intensity -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;hsiTransformation432Intensity">
+        <GEOBIA_Quickbird_2006:propertyDefinition>Hue, Saturation, and Intensity features convert RGB color space values to HSI values.
+The transformation is computed based on the 4 (Infrared) 3 (Red) and 2 (Green) bands (eCognition 8.64 manual)</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#lengthM -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;lengthM">
+        <GEOBIA_Quickbird_2006:propertyDefinition>The length of the object expressed in meters (eCognition 8.64 manual)</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#lengthWidthRatio -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;lengthWidthRatio">
+        <GEOBIA_Quickbird_2006:propertyDefinition>The length-to-width ratio of an image object. There are two methods to approximate this:
+1. The ratio of length to width is identical to the ratio of the eigenvalues of the covariance
+matrix, with the larger eigenvalue being the numerator of the fraction
+
+2. The ratio of length to width can also be approximated using the bounding box.
+Both calculations are compared; the smaller of both results is returned as the feature
+value.
+
+(eCognition 8.64 manual)</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#level -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;level">
+        <GEOBIA_Quickbird_2006:propertyDefinition>The level of the object in the segmentation hierarchy</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#meanBlue -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;meanBlue">
+        <GEOBIA_Quickbird_2006:propertyDefinition>Features in this group refer to the mean layer intensity value of an image object (Blue Band) (eCognition 8.64 manual)</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#meanGreen -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;meanGreen">
+        <GEOBIA_Quickbird_2006:propertyDefinition>Features in this group refer to the mean layer intensity value of an image object (Green Band) (eCognition 8.64 manual).</GEOBIA_Quickbird_2006:propertyDefinition>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#meanGreyIndex -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;meanGreyIndex">
+        <GEOBIA_Quickbird_2006:propertyDefinition>Features in this group refer to the mean layer intensity value of an image object. Grey index is computed as Red+Green+Blue
+</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#meanIR -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;meanIR">
+        <GEOBIA_Quickbird_2006:propertyDefinition>Features in this group refer to the mean layer intensity value of an image object (Infrared Band)</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#meanLGREHaralick -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;meanLGREHaralick">
+        <GEOBIA_Quickbird_2006:propertyDefinition>Features in this group refer to the mean layer intensity value of an image object (Haralick&apos;s Low Grey-Level Run Emphasis). For more information visit:
+
+http://www.orfeo-toolbox.org/CookBook/CookBooksu51.html</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#meanNDVI -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;meanNDVI">
+        <GEOBIA_Quickbird_2006:propertyDefinition>Features in this group refer to the mean layer intensity value of an image object (Normalized Difference Vegetation Index)</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#meanNDWI -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;meanNDWI">
+        <GEOBIA_Quickbird_2006:propertyDefinition>Features in this group refer to the mean layer intensity value of an image object (Normalized Difference Water Index)</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#meanRI10000 -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;meanRI10000">
+        <GEOBIA_Quickbird_2006:propertyDefinition>Redness index. For more information about the index, consider the following link:
+http://www.orfeo-toolbox.org/SoftwareGuide/SoftwareGuidech12.html#x38-2060022</GEOBIA_Quickbird_2006:propertyDefinition>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#meanRed -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;meanRed">
+        <GEOBIA_Quickbird_2006:propertyDefinition>Features in this group refer to the mean layer intensity value of an image object (Red Band)</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#ratioBlue -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;ratioBlue">
+        <GEOBIA_Quickbird_2006:propertyDefinition>Mean intesity of image layer k of a certain object, divided by the mean intesity of the entire layer (Blue Band)</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#ratioGreen -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;ratioGreen">
+        <GEOBIA_Quickbird_2006:propertyDefinition>Mean intesity of image layer k of a certain object, divided by the mean intesity of the entire layer (Green Band)</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#ratioIR -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;ratioIR">
+        <GEOBIA_Quickbird_2006:propertyDefinition>Mean intesity of image layer k of a certain object, divided by the mean intesity of the entire layer (IR Band)</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#ratioIRBlue -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;ratioIRBlue">
+        <GEOBIA_Quickbird_2006:propertyDefinition>Mean layer value of a given object, for the (Blue - Infrared)/(Blue + Infrared) ratio</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#ratioRedOverBlueAndGreen -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;ratioRedOverBlueAndGreen"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#rectangularFit -->
+
+    <owl:DatatypeProperty rdf:about="&GEOBIA_Ontology_QuickBird_2006;rectangularFit">
+        <GEOBIA_Quickbird_2006:propertyDefinition>The Rectangular Fit feature describes how well an image object fits into a rectangle of
+similar size and proportions. While 0 indicates no fit, 1 indicates for a complete fitting
+image object.
+
+The calculation is based on a rectangle with the same area as the image object. The
+proportions of the rectangle are equal to the proportions of the length to width of the
+image object. The area of the image object outside the rectangle is compared with the
+area inside the rectangle.
+</GEOBIA_Quickbird_2006:propertyDefinition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#BrightGreyRoofL2 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;BrightGreyRoofL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;BrightGreySurfaceL2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;areaM2"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_TRP_20_40_360_380"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;lengthWidthRatio"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_2.0_2.2"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;rectangularFit"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.6_0.7"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#BrightGreySurfaceL1 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;BrightGreySurfaceL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;NotDarkGreySurfaceL1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;ratioIRBlue"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_0.27_0.32"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#BrightGreySurfaceL2 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;BrightGreySurfaceL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level2"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;has_RS_0_1_RelativeAreaToSubObjects"/>
+                                <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;BrightGreySurfaceL1"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;ratioIRBlue"/>
+                                <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_0.24_0.26"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#CeramicRoofL2 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;CeramicRoofL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;OrangeSurfaceL2"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;areaM2"/>
+                                <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_TRP_20_40_360_380"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;rectangularFit"/>
+                                <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.6_0.7"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#DarkGreyRoofL2 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;DarkGreyRoofL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;DarkGreySurfaceL2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;areaM2"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_TRP_20_40_360_380"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;lengthWidthRatio"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_2.0_2.2"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;rectangularFit"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.6_0.7"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#DarkGreySurfaceL1 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;DarkGreySurfaceL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;NotOrangeSurfaceL1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;meanGreen"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_650_670"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;meanRed"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_840_860"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;ratioBlue"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.16_0.17"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;ratioGreen"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.24_0.30"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;ratioIRBlue"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_0.24_0.28"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#DarkGreySurfaceL2 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;DarkGreySurfaceL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;has_RS_0_1_RelativeAreaToSubObjects"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;DarkGreySurfaceL1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#Level1 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level1">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;level"/>
+                <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_TR_0_2"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#Level2 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level2">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;level"/>
+                <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_TR_1_3"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#Level3 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level3">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;level"/>
+                <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_TR_2_4"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#NotBrightGreySurfaceL1 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;NotBrightGreySurfaceL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;NotDarkGreySurfaceL1"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;BrightGreySurfaceL1"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#NotDarkGreySurfaceL1 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;NotDarkGreySurfaceL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;NotOrangeSurfaceL1"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;DarkGreySurfaceL1"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#NotOrangeSurfaceL1 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;NotOrangeSurfaceL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;NotWhiteSurfaceL1"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;OrangeSurfaceL1"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#NotRoadL1 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;NotRoadL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;NotShadowL1"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;RoadL1"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#NotRoadL3 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;NotRoadL3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;OtherAreaL3"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;RoadL3"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#NotShadowL1 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;NotShadowL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;OtherAreaL1"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;ShadowL1"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#NotWhiteSurfaceL1 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;NotWhiteSurfaceL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;NotRoadL1"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;WhiteSurfaceL1"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#OrangeSurfaceL1 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;OrangeSurfaceL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;NotWhiteSurfaceL1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;meanBlue"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_400_430"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;meanGreen"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_680_710"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;ratioBlue"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_0.16_0.18"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;ratioGreen"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_0.26_0.28"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;ratioIR"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.29_0.31"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;ratioRedOverBlueAndGreen"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.53_0.55"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#OrangeSurfaceL2 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;OrangeSurfaceL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;has_RS_0_1_RelativeAreaToSubObjects"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;OrangeSurfaceL1"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;meanRI10000"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_17_18"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#OtherAreaL1 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;OtherAreaL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level1"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;VegetationL1"/>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;WaterL1"/>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#OtherAreaL2 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;OtherAreaL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level2"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;BrightGreySurfaceL2"/>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;DarkGreySurfaceL2"/>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;OrangeSurfaceL2"/>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;RoadL2"/>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;ShadowL2"/>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;VegetationL2"/>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;WaterL2"/>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;WhiteSurfaceL2"/>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#OtherAreaL3 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;OtherAreaL3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level3"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;ShadowL3"/>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;VegetationL3"/>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="&GEOBIA_Ontology_QuickBird_2006;WaterL3"/>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#RoadL1 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;RoadL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;NotShadowL1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;is_RS_0_1_OverlappedBy"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;RoadL3"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#RoadL2 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;RoadL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;has_RS_0_1_RelativeAreaToSubObjects"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;RoadL1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#RoadL3 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;RoadL3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;OtherAreaL3"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;asymmetry"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.5_0.6"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;density"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_1.3_1.4"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;lengthM"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_30_50"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#ShadowL1 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;ShadowL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;OtherAreaL1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;hsiTransformation432Intensity"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_LS_0.005_0.009"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#ShadowL2 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;ShadowL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;has_RS_0_1_RelativeAreaToSubObjects"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;ShadowL1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#ShadowL3 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;ShadowL3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level3"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;has_RS_0_1_RelativeAreaToSubObjects"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;ShadowL1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#VegetationL1 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;VegetationL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;meanNDVI"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.14_0.22"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#VegetationL2 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;VegetationL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;has_RS_0_1_RelativeAreaToSubObjects"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;VegetationL1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#VegetationL3 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;VegetationL3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level3"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;has_RS_0_1_RelativeAreaToSubObjects"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;VegetationL1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#WaterL1 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;WaterL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;meanNDWI"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.19_0.21"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#WaterL2 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;WaterL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;has_RS_0_1_RelativeAreaToSubObjects"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;WaterL1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#WaterL3 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;WaterL3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level3"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;has_RS_0_1_RelativeAreaToSubObjects"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;WaterL1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#WhiteRoofL2 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;WhiteRoofL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;WhiteSurfaceL2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;areaM2"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_TRP_20_40_360_380"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;rectangularFit"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.6_0.7"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#WhiteSurfaceL1 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;WhiteSurfaceL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;NotRoadL1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;meanBlue"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_430_440"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;meanGreen"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_530_560"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;meanGreyIndex"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_870_890"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;meanLGREHaralick"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_10_11"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;ratioBlue"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.13_0.15"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;ratioGreen"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_0.27_0.28"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/GEOBIA_Ontology_QuickBird_2006#WhiteSurfaceL2 -->
+
+    <owl:Class rdf:about="&GEOBIA_Ontology_QuickBird_2006;WhiteSurfaceL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;Level2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;has_RS_0_1_RelativeAreaToSubObjects"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;WhiteSurfaceL1"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&GEOBIA_Ontology_QuickBird_2006;meanLGREHaralick"/>
+                        <owl:someValuesFrom rdf:resource="&GEOBIA_Ontology_QuickBird_2006;fuzzy_RS_11.5_13.5"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="&GEOBIA_Ontology_QuickBird_2006;ratioRed">
+        <GEOBIA_Quickbird_2006:propertyDefinition>Mean layer value of a given object, for the (Red)/(Blue + Green) ratio</GEOBIA_Quickbird_2006:propertyDefinition>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
