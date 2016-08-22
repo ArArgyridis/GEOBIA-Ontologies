@@ -38,6 +38,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#propertyDefinition -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-568;propertyDefinition"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1023,6 +1029,7 @@
     <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#has_Fuzzy_RS_0.2_0.3_RelativeBorderTo -->
 
     <owl:ObjectProperty rdf:about="&untitled-ontology-568;has_Fuzzy_RS_0.2_0.3_RelativeBorderTo">
+        <propertyDefinition>Computes the relative border of the neighbor objects classified in a certain class, for a certain object</propertyDefinition>
         <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
 &lt;Role modifier=&quot;fuzzy_RS_0.2_0.3&quot; feature_type=&quot;relative_border&quot; /&gt;
 &lt;/fuzzyOwl2&gt;</fuzzyLabel>
@@ -1033,6 +1040,7 @@
     <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#has_Fuzzy_RS_0.45_0.5_RelativeBorderTo -->
 
     <owl:ObjectProperty rdf:about="&untitled-ontology-568;has_Fuzzy_RS_0.45_0.5_RelativeBorderTo">
+        <propertyDefinition>Computes the relative border of the neighbor objects classified in a certain class, for a certain object</propertyDefinition>
         <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
 &lt;Role modifier=&quot;fuzzy_RS_0.45_0.5&quot; feature_type=&quot;relative_border&quot; /&gt;
 &lt;/fuzzyOwl2&gt;</fuzzyLabel>
@@ -1046,6 +1054,7 @@
         <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
 &lt;Role modifier=&quot;fuzzy_RS_0.80_0.90&quot; feature_type=&quot;relative_border&quot; /&gt;
 &lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <propertyDefinition>Computes the relative border of the neighbor objects classified in a certain class, for a certain object</propertyDefinition>
     </owl:ObjectProperty>
     
 
@@ -1056,6 +1065,7 @@
         <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
 &lt;Role modifier=&quot;fuzzy_RS_0_1&quot; feature_type=&quot;relative_area&quot; /&gt;
 &lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <propertyDefinition>Computes the relative area of the sub objects classified in a certain class, for a certain object</propertyDefinition>
     </owl:ObjectProperty>
     
 
@@ -1066,6 +1076,7 @@
         <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
 &lt;Role modifier=&quot;fuzzy_TRP_0.03_0.05_0.65_0.75&quot; feature_type=&quot;relative_border&quot; /&gt;
 &lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <propertyDefinition>Computes the relative border of the neighbor objects classified in a certain class, for a certain object</propertyDefinition>
     </owl:ObjectProperty>
     
 
@@ -1073,6 +1084,7 @@
     <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#is_Fuzzy_RS_0_1_CoveredBy -->
 
     <owl:ObjectProperty rdf:about="&untitled-ontology-568;is_Fuzzy_RS_0_1_CoveredBy">
+        <propertyDefinition>Computes if an object is covered by objects of a certain class. Similar to the OverlappedBy feature, but it can be employed across multiple segmentation hierarchies</propertyDefinition>
         <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
 &lt;Role modifier=&quot;fuzzy_RS_0_1&quot; feature_type=&quot;overlap&quot; /&gt;
 &lt;/fuzzyOwl2&gt;</fuzzyLabel>
@@ -1086,6 +1098,7 @@
         <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
 &lt;Role modifier=&quot;fuzzy_RS_0_1&quot; feature_type=&quot;is_covered&quot; /&gt;
 &lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <propertyDefinition>Computes if an object is covered by another object of a certain class</propertyDefinition>
     </owl:ObjectProperty>
     
 
@@ -1101,99 +1114,133 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#area -->
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#areaPxl -->
 
-    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;area"/>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#contr_acc -->
-
-    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;contr_acc"/>
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;areaPxl">
+        <propertyDefinition>The area of a segment in pixels</propertyDefinition>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#fanShapeIndex -->
 
-    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;fanShapeIndex"/>
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;fanShapeIndex">
+        <propertyDefinition>Index developed to measure if an alluvial-feature shape is close to a fan.</propertyDefinition>
+    </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#glcm_ang_2 -->
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#glcmAngular2ndMomentDischargePerValleyHead -->
 
-    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;glcm_ang_2"/>
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;glcmAngular2ndMomentDischargePerValleyHead">
+        <propertyDefinition>Angular 2nd moment Haralick feature computed from the discharge per valley head ratio.
+
+It measures the local homogeneity. The value is high if some elements are large and the remaining ones are small (eCognition 8.64 manual)</propertyDefinition>
+    </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#glcm_contr -->
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#glcmContrastAccumulation -->
 
-    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;glcm_contr"/>
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;glcmContrastAccumulation">
+        <propertyDefinition>Contrast Haralick feature computed from the accumulation.
+
+Contrast is the opposite of homogeneity. It is a measure of the amount of local variation in the image (eCognition 8.64 manual) </propertyDefinition>
+    </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#glcm_dissi -->
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#glcmContrastDischargePerValleyHead -->
 
-    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;glcm_dissi"/>
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;glcmContrastDischargePerValleyHead">
+        <propertyDefinition>Contrast Haralick feature computed from the discharge per valley head ratio.
+
+Contrast is the opposite of homogeneity. It is a measure of the amount of local variation in the image (eCognition 8.64 manual) </propertyDefinition>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#level -->
 
-    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;level"/>
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;level">
+        <propertyDefinition>The level of the object in the segmentation hierarchy (eCognition 8.64 manual).</propertyDefinition>
+    </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#mcurvature -->
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#mCurvature -->
 
-    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;mcurvature"/>
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;mCurvature">
+        <propertyDefinition>mean value of geometric curvature</propertyDefinition>
+    </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#mean_contr -->
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#mDischargePerValleyHead -->
 
-    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;mean_contr"/>
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;mDischargePerValleyHead">
+        <propertyDefinition>computed as flow_accumulation/number_of_valley_heads</propertyDefinition>
+    </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#mean_headc -->
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#mMrbvf -->
 
-    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;mean_headc"/>
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;mMrbvf">
+        <propertyDefinition>average value of the Multi Resolution index of Valley Bottom Flatness, as described in:
+
+
+Gallant, J., Dowling, T., 2003. A multiresolution index of valley bottom flatness for mapping depositional areas. Water Resourses Research, 39 (12) 1347.
+</propertyDefinition>
+    </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#mmrvbf -->
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#mNumberOfValleyHeads -->
 
-    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;mmrvbf"/>
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;mNumberOfValleyHeads">
+        <propertyDefinition>mean value of the number of valley heads which contribute flow to each segment</propertyDefinition>
+    </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#mslope -->
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#mSlope -->
 
-    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;mslope"/>
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;mSlope">
+        <propertyDefinition>mean value of slope</propertyDefinition>
+    </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#mslope2 -->
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#mSlopeFirstOrderDerivative -->
 
-    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;mslope2"/>
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;mSlopeFirstOrderDerivative">
+        <propertyDefinition>mean value of slope first order derivative</propertyDefinition>
+    </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#mstrahler -->
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#mStrahler -->
 
-    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;mstrahler"/>
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;mStrahler">
+        <propertyDefinition>mean value of strahler order </propertyDefinition>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#phase -->
 
-    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;phase"/>
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;phase">
+        <propertyDefinition>Number of segmentation hierarchy a level belongs. Employed to represent multiple segmentation hierarchies within the same ontology.</propertyDefinition>
+    </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#stdaspect -->
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-568#stdAspect -->
 
-    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;stdaspect"/>
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-568;stdAspect">
+        <propertyDefinition>standard devliation of the Aspect </propertyDefinition>
+    </owl:DatatypeProperty>
     
 
 
@@ -1319,11 +1366,11 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&untitled-ontology-568;Level4"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&untitled-ontology-568;mmrvbf"/>
+                        <owl:onProperty rdf:resource="&untitled-ontology-568;mMrbvf"/>
                         <owl:someValuesFrom rdf:resource="&untitled-ontology-568;fuzzy_RS_2.7_3"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&untitled-ontology-568;stdaspect"/>
+                        <owl:onProperty rdf:resource="&untitled-ontology-568;stdAspect"/>
                         <owl:someValuesFrom rdf:resource="&untitled-ontology-568;fuzzy_RS_60_65"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -1346,7 +1393,7 @@
                                 <owl:complementOf rdf:resource="&untitled-ontology-568;AlluvialFanL2b"/>
                             </owl:Class>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="&untitled-ontology-568;area"/>
+                                <owl:onProperty rdf:resource="&untitled-ontology-568;areaPxl"/>
                                 <owl:someValuesFrom rdf:resource="&untitled-ontology-568;fuzzy_LS_80000_140000"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -1586,7 +1633,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&untitled-ontology-568;Level1b"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&untitled-ontology-568;mstrahler"/>
+                        <owl:onProperty rdf:resource="&untitled-ontology-568;mStrahler"/>
                         <owl:someValuesFrom rdf:resource="&untitled-ontology-568;fuzzy_TR_254_255_256"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -1706,15 +1753,15 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&untitled-ontology-568;MountainRangeLikeL1"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&untitled-ontology-568;mcurvature"/>
+                        <owl:onProperty rdf:resource="&untitled-ontology-568;mCurvature"/>
                         <owl:someValuesFrom rdf:resource="&untitled-ontology-568;fuzzy_LS_0.011_0.013"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&untitled-ontology-568;mslope"/>
+                        <owl:onProperty rdf:resource="&untitled-ontology-568;mSlope"/>
                         <owl:someValuesFrom rdf:resource="&untitled-ontology-568;fuzzy_TRP_0.00_0.0000001_10.0_20.0"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&untitled-ontology-568;mslope2"/>
+                        <owl:onProperty rdf:resource="&untitled-ontology-568;mSlopeFirstOrderDerivative"/>
                         <owl:someValuesFrom rdf:resource="&untitled-ontology-568;fuzzy_LS_8.4_9.0"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -1758,27 +1805,27 @@
                         <owl:someValuesFrom rdf:resource="&untitled-ontology-568;PiedmontL3"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&untitled-ontology-568;area"/>
+                        <owl:onProperty rdf:resource="&untitled-ontology-568;areaPxl"/>
                         <owl:someValuesFrom rdf:resource="&untitled-ontology-568;fuzzy_RS_330_350"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&untitled-ontology-568;contr_acc"/>
-                        <owl:someValuesFrom rdf:resource="&untitled-ontology-568;fuzzy_LS_800_900"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&untitled-ontology-568;glcm_ang_2"/>
+                        <owl:onProperty rdf:resource="&untitled-ontology-568;glcmAngular2ndMomentDischargePerValleyHead"/>
                         <owl:someValuesFrom rdf:resource="&untitled-ontology-568;fuzzy_LS_0.5_0.6"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&untitled-ontology-568;glcm_contr"/>
+                        <owl:onProperty rdf:resource="&untitled-ontology-568;glcmContrastAccumulation"/>
+                        <owl:someValuesFrom rdf:resource="&untitled-ontology-568;fuzzy_LS_800_900"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&untitled-ontology-568;glcmContrastDischargePerValleyHead"/>
                         <owl:someValuesFrom rdf:resource="&untitled-ontology-568;fuzzy_LS_640_700"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&untitled-ontology-568;mean_contr"/>
+                        <owl:onProperty rdf:resource="&untitled-ontology-568;mDischargePerValleyHead"/>
                         <owl:someValuesFrom rdf:resource="&untitled-ontology-568;fuzzy_LS_8.0_8.5"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&untitled-ontology-568;mean_headc"/>
+                        <owl:onProperty rdf:resource="&untitled-ontology-568;mNumberOfValleyHeads"/>
                         <owl:someValuesFrom rdf:resource="&untitled-ontology-568;fuzzy_TRP_130_210_5000_6000"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -1803,7 +1850,7 @@
                         <owl:someValuesFrom rdf:resource="&untitled-ontology-568;UplandMountainRangeL3"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&untitled-ontology-568;mstrahler"/>
+                        <owl:onProperty rdf:resource="&untitled-ontology-568;mStrahler"/>
                         <owl:someValuesFrom rdf:resource="&untitled-ontology-568;fuzzy_RS_2_3"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
