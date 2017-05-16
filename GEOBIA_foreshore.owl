@@ -1,0 +1,1711 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/untitled-ontology-167#"
+     xml:base="http://www.semanticweb.org/ontologies/untitled-ontology-167"
+     xmlns:untitled-ontology-167="http://www.semanticweb.org/ontologies/untitled-ontology-167#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:foreshore_slope_multilevel="http://www.semanticweb.org/ontologies/foreshore_slope_multilevel.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/foreshore_slope_multilevel.owl#fuzzyLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ontologies/foreshore_slope_multilevel.owl#fuzzyLabel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzyLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzyLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_0.00_0.02 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_0.00_0.02">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;0.00&quot; b=&quot;0.02&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_0.0_0.2 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_0.0_0.2">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;0&quot; b=&quot;0.2&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.2</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_0.85_0.95 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_0.85_0.95">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;.85&quot; b=&quot;.95&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.85</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.95</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_0_1 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_0_1">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;0&quot; b=&quot;1&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_1.5_2.5 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_1.5_2.5">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;1.5&quot; b=&quot;2.5&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.5</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_14_16 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_14_16">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;14&quot; b=&quot;16&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_3.2_4.2 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_3.2_4.2">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;3.2&quot; b=&quot;4.2&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.2</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.2</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_4_5 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_4_5">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;2.5&quot; b=&quot;3.0&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.5</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_RS_0.00_0.35 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_RS_0.00_0.35">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.00&quot; b=&quot;0.35&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.35</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_RS_0.15_0.4 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_RS_0.15_0.4">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.15&quot; b=&quot;0.40&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.15</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.4</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_RS_0.7_0.8 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_RS_0.7_0.8">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.7&quot; b=&quot;0.8&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_RS_21.5_23.5 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_RS_21.5_23.5">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;21.5&quot; b=&quot;23.5&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.5</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.5</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_TRP_0.00_0.35_0.80_0.90 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_TRP_0.00_0.35_0.80_0.90">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;trapezoidal&quot; a=&quot;0&quot; b=&quot;0.35&quot; c=&quot;0.8&quot; d=&quot;0.9&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_TR_-1_0_1 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_TR_-1_0_1">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;triangular&quot; a=&quot;-1&quot; b=&quot;0&quot; c=&quot;1&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.01</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_TR_0_1_2 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_TR_0_1_2">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;triangular&quot; a=&quot;0.0&quot; b=&quot;1.0&quot; c=&quot;2.0&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_TR_1_2_3 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_TR_1_2_3">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;triangular&quot; a=&quot;1&quot; b=&quot;2&quot; c=&quot;3&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_TR_2_3_4 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_TR_2_3_4">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;triangular&quot; a=&quot;2&quot; b=&quot;3&quot; c=&quot;4&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_ls_0_0.001 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_ls_0_0.001">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;0&quot; b=&quot;0.001&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.001</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_ls_3.9_4.1 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_ls_3.9_4.1">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;3.9&quot; b=&quot;4.1&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.9</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_ls_49_51 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_ls_49_51">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;leftshoulder&quot; a=&quot;49&quot; b=&quot;51&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">51.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_rs_0.001_0.01 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_rs_0.001_0.01">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.001&quot; b=&quot;0.01&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.001</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.01</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_rs_0.02_0.05 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_rs_0.02_0.05">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.02&quot; b=&quot;0.05&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.02</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.05</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_rs_0.0_1.0 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_rs_0.0_1.0">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0&quot; b=&quot;1&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_rs_0.24_0.28 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_rs_0.24_0.28">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.24&quot; b=&quot;0.28&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.24</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.28</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_rs_0.5_1 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_rs_0.5_1">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.5&quot; b=&quot;1&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_rs_0.99_1.1 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_rs_0.99_1.1">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;0.99&quot; b=&quot;1.1&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.99</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_rs_800_1000 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_rs_800_1000">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;rightshoulder&quot; a=&quot;800&quot; b=&quot;1000&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">800.0</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1000.0</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_tr_-0.001_0_0.001 -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_tr_-0.001_0_0.001">
+        <fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;datatype&quot;&gt;
+&lt;Datatype type=&quot;triangular&quot; a=&quot;-0.001&quot; b=&quot;0&quot; c=&quot;0.001&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</fuzzyLabel>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-0.001</xsd:minInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.001</xsd:maxInclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#hasFuzzy_LS_0_1_RelativeAreaToSubObjects -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#hasFuzzy_LS_0_1_RelativeAreaToSubObjects">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <foreshore_slope_multilevel:fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
+&lt;Role modifier=&quot;fuzzy_LS_0_1&quot; feature_type=&quot;relative_area&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</foreshore_slope_multilevel:fuzzyLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#hasFuzzy_RS_0_1_RelativeAreaToSubObjects -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#hasFuzzy_RS_0_1_RelativeAreaToSubObjects">
+        <foreshore_slope_multilevel:fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
+&lt;Role modifier=&quot;fuzzy_rs_0.0_1.0&quot; feature_type=&quot;relative_area&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</foreshore_slope_multilevel:fuzzyLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#hasSubObjectDistanceToExterior_3.9_4.1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#hasSubObjectDistanceToExterior_3.9_4.1">
+        <foreshore_slope_multilevel:fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
+&lt;Role modifier=&quot;fuzzy_ls_3.9_4.1&quot; feature_type=&quot;subobject_distance_to_exterior&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</foreshore_slope_multilevel:fuzzyLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_LS_0.85_0.95_RelativeBorderTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_LS_0.85_0.95_RelativeBorderTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <foreshore_slope_multilevel:fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
+&lt;Role modifier=&quot;fuzzy_LS_0.85_0.95&quot; feature_type=&quot;relative_border&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</foreshore_slope_multilevel:fuzzyLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_LS_0_0.2_RelativeBorder -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_LS_0_0.2_RelativeBorder">
+        <foreshore_slope_multilevel:fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
+&lt;Role modifier=&quot;fuzzy_LS_0.0_0.2&quot; feature_type=&quot;relative_border&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</foreshore_slope_multilevel:fuzzyLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_LS_4_5_DistanceToExterior -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_LS_4_5_DistanceToExterior">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <foreshore_slope_multilevel:fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
+&lt;Role modifier=&quot;fuzzy_LS_4_5&quot; feature_type=&quot;neighbor_distance_to_exterior&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</foreshore_slope_multilevel:fuzzyLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_RS_0.15_0.40_RelativeBorderTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_RS_0.15_0.40_RelativeBorderTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <foreshore_slope_multilevel:fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
+&lt;Role modifier=&quot;fuzzy_RS_0.15_0.4&quot; feature_type=&quot;relative_border&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</foreshore_slope_multilevel:fuzzyLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_RS_0.7_0.8_RelativeBorder -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_RS_0.7_0.8_RelativeBorder">
+        <foreshore_slope_multilevel:fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
+&lt;Role modifier=&quot;fuzzy_RS_0.7_0.8&quot; feature_type=&quot;relative_border&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</foreshore_slope_multilevel:fuzzyLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_TRP_0.00_0.35_0.75_0.85_RelativeBorderTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_TRP_0.00_0.35_0.75_0.85_RelativeBorderTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <foreshore_slope_multilevel:fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
+&lt;Role modifier=&quot;fuzzy_TRP_0.00_0.35_0.80_0.90&quot; feature_type=&quot;relative_border&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</foreshore_slope_multilevel:fuzzyLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#has_LS_3.9_4.1_NeighborDistanceToExterior -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_LS_3.9_4.1_NeighborDistanceToExterior">
+        <foreshore_slope_multilevel:fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
+&lt;Role modifier=&quot;fuzzy_ls_3.9_4.1&quot; feature_type=&quot;neighbor_distance_to_exterior&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</foreshore_slope_multilevel:fuzzyLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#has_LS_49_51_NeighborDistanceToExterior -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_LS_49_51_NeighborDistanceToExterior">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <foreshore_slope_multilevel:fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
+&lt;Role modifier=&quot;fuzzy_ls_49_51&quot; feature_type=&quot;neighbor_distance_to_exterior&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</foreshore_slope_multilevel:fuzzyLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#has_RS_0.5_1_RelativeArea -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_RS_0.5_1_RelativeArea">
+        <foreshore_slope_multilevel:fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
+&lt;Role modifier=&quot;fuzzy_rs_0.5_1&quot; feature_type=&quot;relative_area&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</foreshore_slope_multilevel:fuzzyLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#has_rs_0.001_0.01_RelativeBorderTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_rs_0.001_0.01_RelativeBorderTo">
+        <foreshore_slope_multilevel:fuzzyLabel>&lt;fuzzyOwl2 fuzzyType=&quot;role&quot;&gt;
+&lt;Role modifier=&quot;fuzzy_rs_0.001_0.01&quot; feature_type=&quot;relative_border&quot; /&gt;
+&lt;/fuzzyOwl2&gt;</foreshore_slope_multilevel:fuzzyLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#area_m2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#area_m2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#level -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#level"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#mGreen -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#mGreen">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#mSlope -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#mSlope"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#mmodndvi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#mmodndvi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#mndwi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#mndwi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#mnormdem -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#mnormdem"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#BlankSpaceL1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#BlankSpaceL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#Level1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#mGreen"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_tr_-0.001_0_0.001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#BlankSpaceL2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#BlankSpaceL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#Level2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#hasFuzzy_RS_0_1_RelativeAreaToSubObjects"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#BlankSpaceL1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#BlankSpaceL3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#BlankSpaceL3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#Level3"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#hasFuzzy_RS_0_1_RelativeAreaToSubObjects"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#BlankSpaceL2"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#ForeshoreL3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#ForeshoreL3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#Level3"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#hasFuzzy_RS_0_1_RelativeAreaToSubObjects"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#OmitedForeshoreAreaL2"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_TRP_0.00_0.35_0.75_0.85_RelativeBorderTo"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#SeaL3"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#hasFuzzy_RS_0_1_RelativeAreaToSubObjects"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#VegetationOfForeshoreL2"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_LS_0.85_0.95_RelativeBorderTo"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#SeaL3"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_LS_0_0.2_RelativeBorder"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#BlankSpaceL3"/>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_TRP_0.00_0.35_0.75_0.85_RelativeBorderTo"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#SeaL3"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_RS_0.7_0.8_RelativeBorder"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#ForeshoreL3"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#InlandAreaL2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#InlandAreaL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#InlandLikeAreaL2"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#OmitedForeshoreAreaL2"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#InlandLikeAreaL2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#InlandLikeAreaL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#OtherAreaL2"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#SlopedAreaL2"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#Level1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#Level1">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#level"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_TR_0_1_2"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#Level2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#Level2">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#level"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_TR_1_2_3"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#Level3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#Level3">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#level"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_TR_2_3_4"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#LowAltitudeAreaL1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#LowAltitudeAreaL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#NotVegetationL1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#mnormdem"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_3.2_4.2"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#LowAltitudeNearTheSeaL2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#LowAltitudeNearTheSeaL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#Level2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#hasFuzzy_RS_0_1_RelativeAreaToSubObjects"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#LowAltitudeAreaL1"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_RS_0.15_0.40_RelativeBorderTo"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#SeaL2"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#NotBlankSpaceL1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#NotBlankSpaceL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#Level1"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#BlankSpaceL1"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#NotSeaLikeAreaL1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#NotSeaLikeAreaL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#NotBlankSpaceL1"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#SeaLikeAreaL1"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#NotVegetationL1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#NotVegetationL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#NotSeaLikeAreaL1"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#VegetationL1"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#OmitedForeshoreAreaL2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#OmitedForeshoreAreaL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#InlandLikeAreaL2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#hasFuzzy_RS_0_1_RelativeAreaToSubObjects"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#LowAltitudeAreaL1"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_LS_4_5_DistanceToExterior"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#SeaL2"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#OtherAreaL1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#OtherAreaL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#NotVegetationL1"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#LowAltitudeAreaL1"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#OtherAreaL2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#OtherAreaL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#Level2"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#BlankSpaceL2"/>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#LowAltitudeNearTheSeaL2"/>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#SeaL2"/>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#VegetationL2"/>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#OtherAreaL3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#OtherAreaL3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#Level3"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#ForeshoreL3"/>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#SeaL3"/>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#BlankSpaceL3"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#OtherVegetationL2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#OtherVegetationL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#VegetationL2"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#VegetationOfForeshoreL2"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#SeaL2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#SeaL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#Level2"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#hasFuzzy_RS_0_1_RelativeAreaToSubObjects"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#SeaLikeAreaL1"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#area_m2"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_rs_800_1000"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#mndwi"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_rs_0.02_0.05"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#SeaL3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#SeaL3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#Level3"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#hasFuzzy_RS_0_1_RelativeAreaToSubObjects"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#SeaL2"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#SeaLikeAreaL1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#SeaLikeAreaL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#NotBlankSpaceL1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#mSlope"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_1.5_2.5"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#mnormdem"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_LS_0.00_0.02"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#SlopedAreaL2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#SlopedAreaL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#OtherAreaL2"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#hasFuzzy_RS_0_1_RelativeAreaToSubObjects"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#LowAltitudeAreaL1"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#mSlope"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_RS_21.5_23.5"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#VegetationL1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#VegetationL1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#NotSeaLikeAreaL1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#mmodndvi"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#fuzzy_rs_0.24_0.28"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#VegetationL2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#VegetationL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#Level2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#hasFuzzy_RS_0_1_RelativeAreaToSubObjects"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#VegetationL1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/untitled-ontology-167#VegetationOfForeshoreL2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#VegetationOfForeshoreL2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/untitled-ontology-167#VegetationL2"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_LS_4_5_DistanceToExterior"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#LowAltitudeNearTheSeaL2"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_LS_4_5_DistanceToExterior"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#OmitedForeshoreAreaL2"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#has_Fuzzy_LS_4_5_DistanceToExterior"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/untitled-ontology-167#SeaL2"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
